@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+ * APUNTES:
+ * 		   En este archivo se demuestra como utilizar el Hook de la
+ * 		   librería Formik.
+ *
+ *
+ * IMPORTANTE:
+ *  			  - <useFormik> = Me permite aplicar Formik a formularios
+ * 								  existentes, evitando una gran refactorización.
+-------------------------------------------------------------------------- */
+
 // Librerías
 import { useFormik } from 'formik';
 

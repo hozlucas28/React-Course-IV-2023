@@ -1,3 +1,16 @@
+/* --------------------------------------------------------------------------
+ * APUNTES:
+ * 		   Ejemplo de un <input> personalizado de tipo <text> utilizando
+ * 		   la librería Formik.
+ *
+ *
+ * IMPORTANTE:
+ *  			  - <useField> = Se utiliza para crear un <input>
+ * 								 personalizado utilizando la librería Formik.
+ * 								 El mismo debe recibir las <props> y el tipo
+ * 								 de <input> personalizado.
+-------------------------------------------------------------------------- */
+
 import { useField } from 'formik';
 
 const TextInput = ({ label, ...props }) => {

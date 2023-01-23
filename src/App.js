@@ -1,3 +1,22 @@
+/* --------------------------------------------------------------------------
+ * APUNTES:
+ * 		   En este archivo se demuestra el uso de la librería Formik, junto
+ * 		   con los componentes que esta trae.
+ *
+ *
+ * IMPORTANTE:
+ *  			  - <Formik> = Envuelve el formulario al que se le 
+ * 							   aplicara componentes Formik. Además, de 
+ * 							   poseer los valores iniciales de los campos,
+ * 							   sus validaciones y la función que se ejecuta
+ * 							   al enviar el formulario.
+ *  			  - <Form> = Agrupa todos los campos del formulario en una
+ * 							 etiqueta <form>.
+ *  			  - <ErrorMessage> = Es el componente encargado de mostrar 
+ * 									 el mensaje de error del campo vinculado,
+ * 									 gracias a <name>.
+-------------------------------------------------------------------------- */
+
 // Librerías
 import { Formik, Form, ErrorMessage } from 'formik';
 
